@@ -1,0 +1,18 @@
+08/31/2021 12:24:27 PM : INFO : Opening schema configuration file 
+08/31/2021 12:24:27 PM : INFO : Reading CSV file.........
+08/31/2021 12:24:27 PM : INFO : Validating not null and date type values
+08/31/2021 12:24:27 PM : INFO : Opening database configuration file
+08/31/2021 12:24:27 PM : INFO : Connecting to mysql database
+08/31/2021 12:24:27 PM : INFO : Connected successfully
+08/31/2021 12:24:27 PM : INFO : Creating table.............
+08/31/2021 12:24:27 PM : INFO : 30 records inserted.
+
+08/31/2021 12:33:58 PM : INFO : Opening schema configuration file 
+08/31/2021 12:33:58 PM : INFO : Reading CSV file.........
+08/31/2021 12:33:58 PM : INFO : Validating not null and date type values
+08/31/2021 12:33:58 PM : INFO : Opening database configuration file
+08/31/2021 12:33:58 PM : INFO : Connecting to mysql database
+08/31/2021 12:33:58 PM : INFO : Connected successfully
+08/31/2021 12:33:58 PM : INFO : Creating table.............
+08/31/2021 12:33:58 PM : INFO : 30 records inserted.
+

@@ -1,0 +1,164 @@
+{
+  "dataset_name": "sales.csv",
+  "delimiter": ",",
+  "skip_rows": "0",
+  "start_column": "0",
+  "end_column": "14",
+  "target_table_name": "sales_table",
+  "fields":[
+    {
+        "source_field_name":"Region",
+        "target_field_name":"region",
+        "column_order":"1",
+        "data_type":"string",
+        "precision":"",
+        "scale":"",
+        "format":"",
+        "not_null":"y",
+        "description":""
+    },
+    {
+        "source_field_name":"Country",
+        "target_field_name":"country",
+        "column_order":"2",
+        "data_type":"string",
+        "precision":"",
+        "scale":"",
+        "format":"",
+        "not_null":"y",
+        "description":""
+    },
+    {
+        "source_field_name":"Item Type",
+        "target_field_name":"item_type",
+        "column_order":"3",
+        "data_type":"string",
+        "precision":"",
+        "scale":"",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Sales Channel",
+        "target_field_name":"sales_channel",
+        "column_order":"4",
+        "data_type":"string",
+        "precision":"",
+        "scale":"",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Order Priority",
+        "target_field_name":"order_priority",
+        "column_order":"5",
+        "data_type":"string",
+        "precision":"",
+        "scale":"",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Order Date",
+        "target_field_name":"order_date",
+        "column_order":"6",
+        "data_type":"date",
+        "precision":"",
+        "scale":"",
+        "format":"%m/%d/%Y",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Order ID",
+        "target_field_name":"order_id",
+        "column_order":"7",
+        "data_type":"int",
+        "precision":"",
+        "scale":"",
+        "format":"",
+        "not_null":"y",
+        "description":""
+    },
+    {
+        "source_field_name":"Ship Date",
+        "target_field_name":"ship_date",
+        "column_order":"8",
+        "data_type":"date",
+        "precision":"",
+        "scale":"",
+        "format":"%m/%d/%Y",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Units Sold",
+        "target_field_name":"units_sold",
+        "column_order":"9",
+        "data_type":"int",
+        "precision":"",
+        "scale":"",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Unit Price",
+        "target_field_name":"unit_price",
+        "column_order":"10",
+        "data_type":"float",
+        "precision":"10",
+        "scale":"2",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Unit Cost",
+        "target_field_name":"unit_cost",
+        "column_order":"11",
+        "data_type":"float",
+        "precision":"10",
+        "scale":"2",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Total Revenue",
+        "target_field_name":"total_revenue",
+        "column_order":"12",
+        "data_type":"float",
+        "precision":"15",
+        "scale":"2",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Total Cost",
+        "target_field_name":"total_cost",
+        "column_order":"13",
+        "data_type":"float",
+        "precision":"15",
+        "scale":"2",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    },
+    {
+        "source_field_name":"Total Profit",
+        "target_field_name":"total_profit",
+        "column_order":"14",
+        "data_type":"float",
+        "precision":"15",
+        "scale":"2",
+        "format":"",
+        "not_null":"n",
+        "description":""
+    }],
+ "primary_key":"order_id"
+}
